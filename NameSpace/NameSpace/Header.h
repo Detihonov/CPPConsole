@@ -20,8 +20,10 @@ namespace alien
 		cout << "Hello Aliens!!!" << endl;
 	}
 
-	void CinGet()
+	void GinGet()
 	{
+		setlocale(LC_ALL,"");
+		cout << "Нажмите любую клавишу...";
 		cin.get(); // Ввод в консоль
 	}
 }
