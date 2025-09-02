@@ -16,3 +16,11 @@
     cout << sizeof(variable_double) << endl; // 8
     cout << sizeof(variable_float); // 4
 ```
+
+Console:
+
+```
+4
+8
+4
+```
