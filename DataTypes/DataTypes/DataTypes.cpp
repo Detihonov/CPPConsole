@@ -5,10 +5,11 @@ using namespace std;
 
 void PrintChar();
 void Chars();
+void Floating();
 
 int main()
 {
-    PrintChar();
+    Floating();
 }
 
 void PrintChar()
@@ -58,4 +59,11 @@ void Chars()
 void Strings()
 {
 
+}
+
+void Floating()
+{
+    float cakeLeft = 6.8;
+
+    cout << cakeLeft << endl;
 }
