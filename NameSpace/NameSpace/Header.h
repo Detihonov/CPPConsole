@@ -26,4 +26,21 @@ namespace alien
 		cout << "Нажмите любую клавишу...";
 		cin.get(); // Ввод в консоль
 	}
+
+	void ConsoleInput()
+	{
+		int width;
+		int length;
+		int area;
+
+		cout << "Width: ";
+		cin >> width;
+
+		cout << "Length: ";
+		cin >> length;
+
+		area = width + length;
+
+		cout << "\nConsole Input: " << area;
+	}
 }

@@ -3,7 +3,6 @@
 
 int main()
 {
-    human::Greting();
-    alien::Greting();
+
     alien::ConsoleInput();
 }
